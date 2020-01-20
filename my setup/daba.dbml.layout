@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="daba">
+  <DataContextMoniker Name="/dabaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="295889b8-a1ab-40fb-bb2a-2f1d449864f2" absoluteBounds="4.625, 1.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/dabaDataContext/Chauffeur" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc25ded1-8694-413d-9f4f-486208f70242" absoluteBounds="4.64, 1.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

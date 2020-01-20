@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="trucksModification" Class="dabaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=trucksModification;Integrated Security=True" SettingsObjectName="my_setup.Properties.Settings" SettingsPropertyName="trucksModificationConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Chauffeur" Member="Chauffeur">
+    <Type Name="Chauffeur">
+      <Column Name="cinChauffeur" Type="System.String" DbType="VarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idContrat" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="nomChauffeur" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="prenomChauffeur" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="typePermis" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="salaireChauffeur" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.nbChauffeur" Method="nbChauffeur">
+    <ElementType Name="nbChauffeurResult">
+      <Column Name="nb" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
